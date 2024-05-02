@@ -49,7 +49,7 @@ function atualizaNotaFinal() {
     let mediaFinal = calculamediaFinal()
 
     document.getElementById('media-final-valor').innerHTML = mediaFinal
-    document.getElementById('media-final-resultado').innerHTML = mediaFinal > notaMinima ? spanAprovado : spanReprovado
+    document.getElementById('media-final-resultado').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado
 
     console.log(somaDasNotas)
 }
