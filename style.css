@@ -83,8 +83,7 @@ table td img {
 .resultado {
     padding: 8px;
     font-weight: bold;
-    color: white;
-    background-color: black;
+    color: black;
     border-radius: 3px;
 }
 
